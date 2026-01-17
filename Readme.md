@@ -1,42 +1,40 @@
-#📊 Top Programming Languages Dashboard (Power BI)
+📊 Top Programming Languages Dashboard (Power BI)
+📌 Project Overview
 
+This Power BI dashboard provides a historical analysis of programming languages based on their year of creation and founders/creators.
+The goal of this project is to understand how programming languages have evolved over time, identify periods of high innovation, and highlight key contributors.
 
-##📌 Project Overview
+The analysis is purely historical and informational, derived strictly from the available dataset.
 
-This Power BI dashboard presents a historical analysis of top programming languages based on their year of creation and founders/creators.
-The objective of this project is to understand how programming languages evolved over time and identify periods of high innovation and key contributors.
+🗂 Dataset Description
 
-The analysis is purely informational and historical, based only on the available dataset.
-
-##🗂 Dataset Description
-
-The dataset contains information about 100 programming languages with the following columns:
+The dataset contains information on 100 programming languages with the following attributes:
 
 Language – Name of the programming language
 
 Founder/Creator – Individual or organization that created the language
 
-Year – Year in which the language was created
+Year – Year the language was introduced
 
 Time Range: 1949 – 2023
 
-##❓ Key Questions Answered
+❓ Key Questions Answered
 
-The dashboard is designed to answer these questions:
+This dashboard answers the following questions:
 
 How many programming languages are included in the dataset?
 
-What is the earliest and latest year of programming language creation?
+What are the earliest and most recent years of programming language creation?
 
-How many programming languages were created per decade?
+How many programming languages were created in each decade?
 
 Which founders or creators contributed the most programming languages?
 
 How are programming languages distributed across different decades?
 
-What languages correspond to specific founders and creation years?
+Which languages correspond to specific founders and creation years?
 
-##📈 Dashboard Features & Visuals
+📈 Dashboard Features & Visuals
 🔹 KPI Cards
 
 Total Languages – Total number of programming languages
@@ -48,53 +46,55 @@ Maximum Year – Most recent year of language creation
 🔹 Column Chart
 
 Count of Languages by Decade
-
-Shows historical trends in programming language creation
+Visualizes historical trends in programming language creation.
 
 🔹 Bar Chart
 
 Count of Languages by Founder/Creator
-
-Highlights contributors with multiple language creations
+Highlights contributors with multiple language creations.
 
 🔹 Table
 
-Detailed view showing Founder/Creator, Language, and Count
+Displays Founder/Creator, Language, and Count
 
-Useful for exploration and drill-down analysis
+Useful for detailed exploration and drill-down analysis.
 
-##🛠 Data Preparation
+🛠 Data Preparation
 
-A Decade column was derived from the Year column to enable decade-wise analysis.
+Imported the CSV dataset into Power BI
 
-Data types were validated to ensure correct aggregation and visualization.
+Validated data types for accurate aggregation
 
-##🎯 Key Insights
+Created a Decade column from the Year field for decade-wise analysis
+
+Used Power Query for data transformation
+
+🎯 Key Insights
 
 Programming language creation increased significantly during the late 20th century.
 
-Certain decades show higher innovation activity than others.
+Certain decades experienced higher innovation compared to others.
 
-Some founders and organizations have contributed multiple programming languages.
+Some individuals and organizations contributed multiple programming languages.
 
-The dataset reflects the historical evolution of programming languages rather than popularity or usage.
+The dataset reflects the historical evolution of programming languages rather than their popularity or usage.
 
-##⚠️ Limitations
+⚠️ Limitations
 
-The dataset does not include popularity, usage statistics, demand, or salary data.
+No data on popularity, usage, demand, or salary trends.
 
-The analysis is limited to creation year and founders only.
+Analysis is limited to creation year and founder information.
 
-Insights are historical, not predictive.
+Insights are descriptive and historical, not predictive.
 
-##🧰 Tools Used
+🧰 Tools Used
 
-- Power BI Desktop
+Power BI Desktop
 
-- CSV Dataset
+Power Query
 
-- Power Query for data transformation
+CSV Dataset
 
-##📌 Conclusion
+📌 Conclusion
 
-This dashboard provides a clear and structured view of the evolution of programming languages over time, helping users understand innovation trends and contributor impact using historical data.
+This dashboard presents a clear and structured historical view of programming languages, enabling users to understand innovation patterns and founder contributions using reliable, time-based data.
